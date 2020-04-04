@@ -40,18 +40,18 @@ class RandomQuote extends Component
     render() {
         const {quote, author} = this.state
         return (
-            <div id='wrapper'>
-                <h1>Anime Quote</h1>
-                <div>
-                    <p>{quote}</p>
-                    <h5>{author}</h5>
-                </div>
-                <div id="buttons">
-                    <a href={`https://twitter.com/intent/tweet?text=${quote} \n ${author}`} target='_blank' title="Post this quote on twitter!">
-                        Tweet this quote.
-                    </a>
-                    <button id="new-quote" onClick={this.getNewQuote}>New Quote</button>
-                </div>
+            <div className="container text-center mt-5">
+                    <h1>Anime Quote</h1>
+                    <div className="card mt-4">
+                        <div className="card-body">
+                            <h4 className="card-text mt-3 mb-3">{quote}</h4>
+                            <h5 className="card-text mt-3 mb-3" style={{textAlign: "end", marginRight: 100}}><strong>{author}</strong></h5>
+                            <a style={{marginRight:100}} href={`https://twitter.com/intent/tweet?text=${quote} ${author}`}target='_blank' title="Post this quote on twitter!">
+                                <i className="fa fa-twitter fa-2x" aria-hidden="true"></i>     
+                            </a>
+                            <button className="btn btn-primary justify-content-end" onClick={this.getNewQuote}>New Quote</button>
+                        </div>
+                    </div>
             </div>
         )
     }

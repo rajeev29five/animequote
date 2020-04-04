@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import RandomQuote from './components/RandomQuote';
+import './static/RandomQuoteApp.css'
 
 ReactDOM.render(
   <React.StrictMode>
