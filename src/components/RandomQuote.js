@@ -8,7 +8,8 @@ class RandomQuote extends Component
         super(props);
         this.state = {
             quote : '',
-            author : ''
+            author : '',
+            anime : ''
         }
         this.getNewQuote = this.getNewQuote.bind(this)
     }
@@ -28,7 +29,8 @@ class RandomQuote extends Component
                  
                 this.setState({
                     quote : randomQuote['quote'],
-                    author : randomQuote['author']
+                    author : randomQuote['author'],
+                    anime : randomQuote['anime']   
                 })
              }) 
     }
@@ -41,12 +43,12 @@ class RandomQuote extends Component
         const {quote, author} = this.state
         return (
             <div className="container text-center mt-5">
-                    <h1>Anime Quote</h1>
+                    <h1>{anime === null ? "Anime Quotes" : anime}</h1>
                     <div className="card mt-4">
                         <div className="card-body">
                             <h4 className="card-text mt-3 mb-3">{quote}</h4>
-                            <h5 className="card-text mt-3 mb-3" style={{textAlign: "end", marginRight: 100}}><strong>{author}</strong></h5>
-                            <a style={{marginRight:100}} href={`https://twitter.com/intent/tweet?text=${quote} ${author}`}target='_blank' title="Post this quote on twitter!">
+                            <h5 className="card-text mt-3 mb-3" style={{textAlign: "end", marginRight: 100, marginBottom: 60}}><strong>{author}</strong></h5>
+                            <a style={{marginRight:100, marginTop:60}} href={`https://twitter.com/intent/tweet?text=${quote} ${author}`}target='_blank' title="Post this quote on twitter!">
                                 <i className="fa fa-twitter fa-2x" aria-hidden="true"></i>     
                             </a>
                             <button className="btn btn-primary justify-content-end" onClick={this.getNewQuote}>New Quote</button>

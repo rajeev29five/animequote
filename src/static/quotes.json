@@ -1,58 +1,72 @@
 {
     "quotes" : [
         {
+            "anime" : "Death Note",
             "quote" : "“I’m not weird, I’m just Different.”",
             "author" : "– L"
         },
         {
+            "anime" : "One Piece",
             "quote" : "“Power isn’t determined by your size, But the size of your heart and dreams!”",
             "author" : "– Monkey D. Luffy"
         },
         {
+            "anime" : "One Piece",
             "quote" : "“A man’s dream… Will NEVER die!”",
             "author" : "– Blackbeard"
         },
         {
+            "anime" : "Trigun",
             "quote" : "“Every journey begins with a single step. We just have to have patience.”",
             "author" : "– Milly Thompson"
         },
         {
+            "anime" : "Higurashi: When They Cry",
             "quote" : "“If your life can change once, your life can change again.”",
             "author" : "– Sanae"
         },
         {
+            "anime" : "",
             "quote" : "“If you just submit yourself to fate, then that’s the end of it.”",
             "author" : "– Keiichi Maebara"
         },
         {
+            "anime" : "Fate Zero",
             "quote" : "“Whatever you do, enjoy it to the fullest. That is the secret of life.”",
             "author" : "– Rider"
         },
         {
+            "anime" : "My Hero Academia",
             "quote" : "“Sometimes I do feel like I’m a failure. Like there’s no hope for me. But even so, I’m not gonna give up. Ever!”",
             "author" : "– Izuku Midoriya"
         },
         {
+            "anime" : "Dragon Ball Z",
             "quote" : "“Power comes in response to a need, not a desire. You have to create that need.”",
             "author" : "– Goku"
         },
         {
+            "anime" : "Fate Stay Night",
             "quote" : "“There are no regrets. If one can be proud of one’s life, one should not wish for another chance”",
             "author" : "– Saber"
         },
         {
+            "anime" : "Tamako Market",
             "quote" : "“You can’t always hold on to the things that are important. By letting them go we gain something else.”",
             "author" : "– Kunio Yaobi"
         },
         {
+            "anime" : "Naruto Shippuden",
             "quote" : "“If you don’t like your destiny, don’t accept it. Instead, have the courage to change it the way you want it to be.”",
             "author" : "– Naruto Uzumaki"
         },
         {
+            "anime" : "One Piece",
             "quote" : "“No matter how hard or impossible it is, never lose sight of your goal.”",
             "author" : "– Monkey D Luffy"
         },
         {
+            "anime" : "One Piece",
             "quote" : "“Fools who don’t respect the past are likely to repeat it.”",
             "author" : "– Nico Robin"
         }        
